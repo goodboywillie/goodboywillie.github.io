@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Spectral');
+
 * {
 	padding: 0;
 	margin: 0;
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px; /*1em = 20px*/
 	color: #222222;
 	line-height: 1.3;
 }
@@ -13,6 +15,12 @@ body {
 header {
 	background-color: #95B5FF;
 	padding: 20px;
+	font-family: 'Spectral', serif;
+	font-size: 50px;
+}
+
+nav {
+	font-size: 18px;
 }
 
 h1 {
@@ -36,12 +44,6 @@ ul {
 	padding-left: 20px;
 }
 
-footer {
-	background-color: #ffffff;
-	padding: 20px;
-	text-align: center;
-}
-
 aside {
 	margin-left: 20px;
 }
@@ -49,4 +51,36 @@ aside {
 h2 {
 	margin-left: 8px;
 	font-style: italic;
+}
+
+h5 {
+	margin-left: 0px;
+	font-style: bold;
+	padding: 30px;
+	font-size: 30px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+hr{
+	border: 1px solid red;
+}
+
+.willies {
+	width: 30em;
+	margin: 2em auto;
+	padding: 0px;
+}
+
+footer {
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: center;
+}
+
+h4 {
+	padding: 3px;
 }
