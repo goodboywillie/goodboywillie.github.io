@@ -15,13 +15,17 @@ body {
 }
 
 header {
-	background-color: #FFED;
+	background-color: #FFED74;
+	border: 1px black solid;
 	padding: 20px;
 	font-family: 'Spectral', serif;
 	font-size: 50px;
 }
 
 nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 	font-size: 18px;
 	padding-top: 10px;
 	text-align: center;
@@ -51,6 +55,9 @@ ul {
 }
 
 aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
 	margin-left: 20px;
 }
 
@@ -86,7 +93,8 @@ hr{
 }
 
 footer {
-	background-color: #ffffff;
+	background-color: #FF957E;
+	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
 }
@@ -99,4 +107,10 @@ h4 {
 	width: 1080px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 }
