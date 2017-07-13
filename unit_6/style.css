@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Spectral');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px; /*1em = 20px*/
+	color: #222222;
+	line-height: 1.3;
+	background-color: #4A7D7C;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Spectral', serif;
+	font-size: 50px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	font-size: 18px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	color: #ffffff;
+	padding: 10px;
+	border: 5px solid black;
+}
+
+img {
+	width: 100%;
+
+}
+
+main {
+	padding: 20px;
+}
+
+h3 {
+	margin: 20px 0;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	margin-left: 20px;
+}
+
+h2 {
+	margin-left: 8px;
+	font-style: italic;
+}
+
+h5 {
+	margin-left: 0px;
+	font-style: bold;
+	padding: 30px;
+	font-size: 30px;
+}
+
+.reviews {
+	font-style: italic;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+.willies {
+	width: 30em;
+	margin: 2em auto;
+	padding: 0px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+h4 {
+	padding: 3px;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid; 
+	padding: 20px;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid; 
+	padding: 20px; 
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid; 
+	padding: 20px;
+	float: right; 
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both; 
+	height: 0;
+}
