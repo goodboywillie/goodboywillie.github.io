@@ -154,12 +154,14 @@ div {
 
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 780px) and (min-width: 320px) {
 	#left {
 		display :block;
 		width: 55%;
 		text-align: left;
 		border: none;
+		float: none;
+		font-size: .75em;
 	}
 }
 
@@ -169,5 +171,11 @@ div {
 		width: 100%;
 		text-align: left;
 		border: none;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	h1 {
+		font-size: 1.5em;
 	}
 }
