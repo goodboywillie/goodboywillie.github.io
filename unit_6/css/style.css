@@ -39,7 +39,7 @@ nav a:last-child {
 
 h1 {
 	color: #ffffff;
-	padding: 10px;
+	text-align: left;
 }
 
 img {
@@ -53,6 +53,8 @@ main {
 
 h3 {
 	margin: 20px 0;
+	background-color: #4A7D7C;
+	padding: 5px;
 }
 
 ul {
@@ -92,6 +94,11 @@ p {
 	padding: 0px;
 }
 
+.willie_love {
+	width: 100%;
+	margin: none;
+}
+
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
@@ -116,7 +123,6 @@ div {
 }
 
 #two_column {
-	background-color: #FF957E;
 	padding: 20px;
 }
 
@@ -156,21 +162,23 @@ div {
 
 @media only screen and (max-width: 780px) and (min-width: 320px) {
 	#left {
-		display :block;
+		display: block;
 		width: 55%;
 		text-align: left;
 		border: none;
 		float: none;
-		font-size: .65em;
+		font-size: .63em;
 	}
 }
 
 @media only screen and (max-width: 780px) {
 	#right {
-		display :block;
+		display: block;
 		width: 100%;
 		text-align: left;
 		border: none;
+		font-size: .65em;
+		float: none;
 	}
 }
 
