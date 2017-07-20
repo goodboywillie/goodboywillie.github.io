@@ -11,33 +11,35 @@ body {
 	font-size: 20px; /*1em = 20px*/
 	color: #222222;
 	line-height: 1.3;
-	background-color: #4A7D7C;
+	background-color: #D4BECB;
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
+	background-color: lightblue;
 	padding: 20px;
 	font-family: 'Spectral', serif;
-	font-size: 50px;
+	font-size: 3em;
 }
 
 nav {
-	background-color: black;
-	border: 1px black solid;
+	background-color: #E8C66A;
 	padding: 20px;
-	font-size: 18px;
+	font-size: .4em;
 	padding-top: 10px;
 	text-align: center;
 }
+
 nav a {
 	border-right: 1px solid black;
+	padding-right: 5px;
+}
+nav a:last-child {
+	border: none;
 }
 
 h1 {
 	color: #ffffff;
-	padding: 10px;
-	border: 5px solid black;
+	text-align: left;
 }
 
 img {
@@ -51,6 +53,8 @@ main {
 
 h3 {
 	margin: 20px 0;
+	background-color: #4A7D7C;
+	padding: 5px;
 }
 
 ul {
@@ -70,10 +74,9 @@ h2 {
 }
 
 h5 {
-	margin-left: 0px;
 	font-style: bold;
 	padding: 30px;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 .reviews {
@@ -81,14 +84,19 @@ h5 {
 }
 
 p {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 1.5em;
 }
 
 .willies {
-	width: 30em;
+	width: 100%;
 	margin: 2em auto;
 	padding: 0px;
+}
+
+.willie_love {
+	width: 100%;
+	margin: none;
 }
 
 footer {
@@ -103,34 +111,31 @@ h4 {
 }
 
 #wrapper {
-	width: 1080px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 900px;
 }
 
 div {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #D4BECB;
 	padding: 20px;
 }
 
 #two_column {
-	background-color: #FFB7CF;
-	border: 1px black solid; 
 	padding: 20px;
 }
 
 #left {
-	background-color: #E582A2;
-	border: 1px black solid; 
+	background-color: #4A7D7C;
 	padding: 20px; 
 	float: left;
 	width: 30%;
+	border: none;
 }
 
 #right {
-	background-color: #E55B88;
-	border: 1px black solid; 
+	background-color: #4A7D7C;
 	padding: 20px;
 	float: right; 
 	width: 62%;
@@ -143,4 +148,42 @@ div {
 	content: " ";
 	clear: both; 
 	height: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	nav a {
+		display: block;
+		width: 100%;
+		text-align: center;
+		border: none;
+	}
+
+}
+
+@media only screen and (max-width: 780px) and (min-width: 320px) {
+	#left {
+		display: block;
+		width: 55%;
+		text-align: left;
+		border: none;
+		float: none;
+		font-size: .63em;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	#right {
+		display: block;
+		width: 100%;
+		text-align: left;
+		border: none;
+		font-size: .65em;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	h1 {
+		font-size: 1.5em;
+	}
 }
